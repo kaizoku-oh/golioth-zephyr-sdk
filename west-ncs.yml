@@ -7,6 +7,11 @@ manifest:
       url: http://github.com/nrfconnect/sdk-nrf
       import: true
 
+    - name: stm32
+      revision: main
+      url: https://github.com/zephyrproject-rtos/hal_stm32
+      import: true
+
   self:
     path: modules/lib/golioth
     west-commands: scripts/west-commands.yml
